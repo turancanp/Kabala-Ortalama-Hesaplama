@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Ortalama_Hesaplama_V1._02</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>kgl-logo.ico</ApplicationIcon>
+    <Description>Turan Can Pamuk</Description>
+    <Copyright>Turan Can Pamuk</Copyright>
+  </PropertyGroup>
+
+</Project>
