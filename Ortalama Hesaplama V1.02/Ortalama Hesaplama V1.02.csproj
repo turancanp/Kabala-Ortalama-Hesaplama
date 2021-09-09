@@ -6,7 +6,7 @@
     <RootNamespace>Ortalama_Hesaplama_V1._02</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>kgl-logo.ico</ApplicationIcon>
-    <Description>Turan Can Pamuk</Description>
+    <Description>Şuanda çalışmakta olduğum firmada işleri hızlandırmak maksatı ile yaptığım basit bir uygulama.</Description>
     <Copyright>Turan Can Pamuk</Copyright>
   </PropertyGroup>
 

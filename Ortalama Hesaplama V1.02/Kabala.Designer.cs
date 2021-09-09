@@ -114,6 +114,8 @@ namespace Ortalama_Hesaplama_V1._02
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.toplamdarabox = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.toplampaletdarabox = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -121,8 +123,6 @@ namespace Ortalama_Hesaplama_V1._02
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.kisikasatoplam = new System.Windows.Forms.TextBox();
-            this.toplamdarabox = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -155,7 +155,7 @@ namespace Ortalama_Hesaplama_V1._02
             this.groupBox1.Size = new System.Drawing.Size(404, 94);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = " ";
+            this.groupBox1.Text = " 1. Tartım";
             // 
             // groupBox9
             // 
@@ -1051,6 +1051,26 @@ namespace Ortalama_Hesaplama_V1._02
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "2. Tartıma Kasasız Girdiyse";
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(9, 104);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(73, 15);
+            this.label18.TabIndex = 6;
+            this.label18.Text = "Toplam Dara";
+            // 
+            // toplamdarabox
+            // 
+            this.toplamdarabox.Location = new System.Drawing.Point(84, 104);
+            this.toplamdarabox.Name = "toplamdarabox";
+            this.toplamdarabox.ReadOnly = true;
+            this.toplamdarabox.Size = new System.Drawing.Size(57, 23);
+            this.toplamdarabox.TabIndex = 5;
+            this.toplamdarabox.TabStop = false;
+            this.toplamdarabox.Text = "0";
+            this.toplamdarabox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -1120,26 +1140,6 @@ namespace Ortalama_Hesaplama_V1._02
             this.kisikasatoplam.TabStop = false;
             this.kisikasatoplam.Text = "0";
             this.kisikasatoplam.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // toplamdarabox
-            // 
-            this.toplamdarabox.Location = new System.Drawing.Point(84, 104);
-            this.toplamdarabox.Name = "toplamdarabox";
-            this.toplamdarabox.ReadOnly = true;
-            this.toplamdarabox.Size = new System.Drawing.Size(57, 23);
-            this.toplamdarabox.TabIndex = 5;
-            this.toplamdarabox.TabStop = false;
-            this.toplamdarabox.Text = "0";
-            this.toplamdarabox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(9, 104);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(73, 15);
-            this.label18.TabIndex = 6;
-            this.label18.Text = "Toplam Dara";
             // 
             // Kabala
             // 
